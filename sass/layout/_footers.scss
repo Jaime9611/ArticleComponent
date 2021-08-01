@@ -5,7 +5,9 @@ footer {
 .attribution {
   font-size: 11px;
   text-align: center;
+  color: $Grayish-Blue;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: $Very-Dark-Grayish-Blue;
+  text-decoration: none;
 }
