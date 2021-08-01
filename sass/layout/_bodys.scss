@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: $Primary-font;
+  font-size: $Font-size;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  height: 100%;
+}

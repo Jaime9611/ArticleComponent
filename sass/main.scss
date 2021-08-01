@@ -6,8 +6,10 @@
 @import "base/globals.scss";
 
 // 3. layout
-// @import "layout/body-layouts.scss";
-// @import "layout/main-content.scss";
-// @import "layout/footers.scss";
+@import "layout/bodys.scss";
+@import "layout/mains.scss";
+@import "layout/footers.scss";
 
 // 4. component
+@import "components/articles.scss";
+@import "components/profiles.scss";
