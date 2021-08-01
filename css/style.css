@@ -11,7 +11,8 @@ body {
   height: 100vh;
   overflow: hidden;
   font-family: "Manrope", sans-serif;
-  font-size: 13px; }
+  font-size: 13px;
+  background-color: #ecf2f8; }
 
 .container {
   display: flex;
@@ -40,7 +41,7 @@ footer {
   justify-content: center;
   align-items: center;
   width: 320px;
-  height: 500px; }
+  background-color: #fff; }
   .article--img {
     width: 100%; }
   .article--content {
