@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  overflow: hidden;
+  font-family: "Manrope", sans-serif;
+  font-size: 13px;
+  background-color: #ecf2f8; }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  max-width: 375px;
+  height: 100%; }
+
+main {
+  flex: 20;
+  display: flex;
+  align-items: center; }
+
+footer {
+  flex: 1; }
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  color: #9eafc2; }
+
+.attribution a {
+  color: #48556a;
+  text-decoration: none; }
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  background-color: #fff; }
+  .article--img {
+    width: 100%; }
+  .article--content {
+    margin: 30px auto;
+    width: 80%;
+    font-size: 8px; }
+    .article--content h1 {
+      margin-bottom: 10px;
+      font-weight: 700;
+      color: #48556a; }
+    .article--content p {
+      color: #6d7f97;
+      font-size: 13px; }
+  .article--info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+
+.article--info__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+
+.article--info__date {
+  color: #9eafc2; }
+
+.profile--info__name {
+  font-weight: 700;
+  color: #48556a; }
+
+/*# sourceMappingURL=style.css.map */

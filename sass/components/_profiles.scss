@@ -1,0 +1,14 @@
+.article--info__profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.article--info__date {
+  color: $Grayish-Blue;
+}
+
+.profile--info__name {
+  font-weight: 700;
+  color: $Very-Dark-Grayish-Blue;
+}
