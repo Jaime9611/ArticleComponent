@@ -8,15 +8,16 @@
   margin-left: 10px;
 }
 
-.article--info__date {
-  font-size: 10px;
-  color: $Grayish-Blue;
-}
-
 .profile--info__name {
+  margin-bottom: 5px;
   font-size: 10px;
   font-weight: 700;
   color: $Very-Dark-Grayish-Blue;
+}
+
+.article--info__date {
+  font-size: 10px;
+  color: $Grayish-Blue;
 }
 
 .profile--photo {
