@@ -1,3 +1,18 @@
+.article--info {
+  background-color: $Very-Dark-Grayish-Blue;
+  padding: 15px;
+}
+
+.article--info__share {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social-icon {
+  width: 30px;
+}
+
 .btn-share {
   padding: 7px;
   border-radius: 50px;
