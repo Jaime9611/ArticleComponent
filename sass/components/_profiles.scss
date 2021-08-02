@@ -4,11 +4,24 @@
   align-items: center;
 }
 
-.article--info__date {
-  color: $Grayish-Blue;
+.profile--info {
+  margin-left: 15px;
 }
 
 .profile--info__name {
+  margin-bottom: 3px;
+  font-size: 12px;
   font-weight: 700;
   color: $Very-Dark-Grayish-Blue;
+}
+
+.article--info__date {
+  font-size: 10px;
+  font-weight: 500;
+  color: $Grayish-Blue;
+}
+
+.profile--photo {
+  width: 40px;
+  border-radius: 50%;
 }

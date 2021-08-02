@@ -1,0 +1,38 @@
+.article--info.share-active {
+  background-color: $Very-Dark-Grayish-Blue;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.article--info__profile.share-active {
+  display: none;
+}
+
+.article--info__share {
+  display: none;
+}
+.article--info__share.share-active {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  h2 {
+    color: $Grayish-Blue;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 4px;
+    margin-right: 15px;
+  }
+}
+
+.social-icon {
+  width: 20px;
+  margin-right: 10px;
+}
+
+.btn-share {
+  padding: 7px;
+  border-radius: 50px;
+  color: $Desaturated-Dark-Blue;
+  background-color: $Body-background;
+  cursor: pointer;
+}
