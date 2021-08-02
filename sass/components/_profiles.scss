@@ -4,11 +4,22 @@
   align-items: center;
 }
 
+.profile--info {
+  margin-left: 10px;
+}
+
 .article--info__date {
+  font-size: 10px;
   color: $Grayish-Blue;
 }
 
 .profile--info__name {
+  font-size: 10px;
   font-weight: 700;
   color: $Very-Dark-Grayish-Blue;
+}
+
+.profile--photo {
+  width: 40px;
+  border-radius: 50%;
 }
