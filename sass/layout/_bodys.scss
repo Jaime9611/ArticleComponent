@@ -10,11 +10,11 @@ body {
 }
 
 .container {
-  @include breakpoint(desktop-up) {
-    max-width: 900px;
-  }
   display: flex;
   flex-direction: column;
   max-width: 375px;
   height: 100%;
+  @include breakpoint(desktop-up) {
+    max-width: 900px;
+  }
 }
