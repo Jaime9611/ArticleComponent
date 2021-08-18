@@ -67,4 +67,4 @@ Continue learning Sass and use of its Mixins properties.
 ## Author
 
 - Github - [Jaime9611](https://github.com/Jaime9611)
-- Frontend Mentor - [@Jaime9611](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Jaime9611](https://www.frontendmentor.io/profile/Jaime9611)
