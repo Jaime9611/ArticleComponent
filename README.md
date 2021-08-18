@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Mobile First Solution - Sass](https://www.frontendmentor.io/solutions/mobile-first-solution-using-sass-_144e8Jae)
+- Live Site URL: [Live Site](https://jaime9611.github.io/ArticleComponent/)
 
 ## My process
 
