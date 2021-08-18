@@ -42,6 +42,18 @@
     height: 65px;
     background-color: $Very-Dark-Grayish-Blue;
     border-radius: 10px;
+    &::before {
+      content: "";
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      border-left: 15px solid transparent;
+      border-right: 15px solid transparent;
+      border-top: 15px solid $Very-Dark-Grayish-Blue;
+      border-bottom: 15px solid transparent;
+      right: 109px;
+      top: 65px;
+    }
   }
   h2 {
     color: $Grayish-Blue;
