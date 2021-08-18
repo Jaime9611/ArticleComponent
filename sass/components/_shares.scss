@@ -65,6 +65,7 @@
     @include breakpoint(desktop-up) {
       font-size: 13px;
       margin-right: 20px;
+      font-weight: bold;
     }
   }
 }
@@ -72,14 +73,36 @@
 .social-icon {
   width: 20px;
   margin-right: 10px;
+  &:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+  }
 }
 
 .btn-share {
-  padding: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  padding: 5px;
   border-radius: 50px;
-  color: $Desaturated-Dark-Blue;
   background-color: $Body-background;
   cursor: pointer;
+}
+
+.btn-share:hover {
+  background-color: $Desaturated-Dark-Blue;
+  .btn-share--arrow {
+    fill: #fff;
+  }
+}
+
+.btn-share.share-active {
+  background-color: $Desaturated-Dark-Blue;
+  .btn-share--arrow {
+    fill: #fff;
+  }
 }
 
 @keyframes pop {

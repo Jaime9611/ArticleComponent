@@ -8,10 +8,12 @@ function activate_share() {
     article_profile.classList.remove("share-active");
     article_info.classList.remove("share-active");
     article_share.classList.remove("share-active");
+    share_btn.classList.remove("share-active");
   } else {
     article_info.classList.add("share-active");
     article_profile.classList.add("share-active");
     article_share.classList.add("share-active");
+    share_btn.classList.add("share-active");
   }
 }
 
